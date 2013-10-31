@@ -1,0 +1,41 @@
+ErrorScript Notes iPad
+
+Script Set Up
+Before you use this script, you must have PadSync installed on your Mac.  This is the file transfer system between the iPad and the Mac.  You need iTunes version 9 or higher to run PadSync.  
+
+USING THE SCRIPT
+
+Click on the script.
+
+A window pops up that says "Please plug in your iPad to the Mac computer."
+Press okay.  
+
+A window pops up that says "Your error information will be stored on the desktop under Error_Archives"
+Press okay.
+
+A prompt will pop up that asks to "Insert Vehicle Identification, example: Holley"  The first time you open this script, this will be empty.  Then it will save whatever you enter in this file to a .txt file and it will use that as the default after the first use of the app.  Keep the name to a reasonable length.
+
+The date and time in the form YYYY_MM_DD_HHMM is added to the end of the name Van ID for the title of the folder in which the information is stored.  
+
+Next prompt says "Please open the status bar in DVX so a screenshot can be saved. (Press the spacebar to save a particular window)"  This will be saved to Error_Archives under the error folder.
+Press okay, then you have two options.  
+	1.	Press spacebar, and click on the DVX window.  This will take a screenshot of that 		window.  
+	2.	Drag your mouse, which will create a rectangle.  The screenshot will be whatever is in 		that rectangle.  
+
+"Would you like to take another screenshot?"  Yes  or no.  Then repeat the previous steps to take the screenshot.  
+
+"Please wait while the activity monitor is automatically saved."  It takes a few seconds and the script types in the name of the file and saves it to the desktop.  It is then moved into the error folder.
+
+"Did a program crash?" If they say yes, then the script will save the most recent crash report.  If they say no, it will continue with the script.  If there are no crash files, then it will tell the crew that there were no crashes.  
+
+The console log is saved to the error folder without any prompts.  
+
+"Please enter notes your collection circumstances.  Useful information would be: Your location (city or rural). Your speed (mph).  Road conditions and pavement type"  Type your notes in here, and a text file will be saved.  (Try to use standard characters.  no !@#&*()($%#{}[] ><)  Periods and commas are okay.  If you press enter, you will hit Okay.  So don't try entering in multiple lines to your notes.  
+
+The system information is also added to the end of the notes.  They are in this form:  "Model Name: MacBook Pro, Model Identifier: MacBookPro5,3, Processor Name: Intel Core 2 Duo, Processor Speed: 2.8 GHz, Number of Processors: 1, Total Number of Cores: 2, Memory: 4 GB, Bus Speed: 1.07 GHz, Serial Number: ############"  (I changed the Serial Number in this write up to protect my identity.)
+
+iPad Version
+"Please wait while the zip file is uploaded to your iPad."  
+PadSync is opened, and the apps sync whatever data they are looking for to the iPad.  For some reason, you cannot automatically add a file to the iPad without this app.  
+"Open the Emailer App on your iPad and press FTP report.  Please contact your Digilog representative."
+

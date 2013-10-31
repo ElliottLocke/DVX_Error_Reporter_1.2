@@ -1,0 +1,3 @@
+Release Notes DVX Error Reporter 1.1
+
+This version 1.1 changes the name of the drop off folder in PadSync to com.digilog.apps.  This was necessary because DLMailer (the iPad app) is being pushed to the iPads from IT using a different name.  

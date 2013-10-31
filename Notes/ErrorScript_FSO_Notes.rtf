@@ -1,0 +1,49 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red102\green177\blue50;\red29\green48\blue13;\red0\green68\blue254;
+\red255\green39\blue18;}
+\margl1440\margr1440\vieww17620\viewh13380\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
+
+\f0\b\fs28 \cf0 ErrorScript Notes FSO/No iPad
+\b0\fs24 \ul \ulc0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+\ulnone This script creates a zip file in the folder Error_Archive on the desktop.  The zip file will contain screenshots, a console log from the last start up period, the activity monitor, and crash logs if something crashed.  \ul \
+\
+USING THE SCRIPT\ulnone \
+\
+Click on the script.\
+\
+A window pops up that says "\cf2 Your error information will be stored on the desktop under Error_Archives"\
+\cf0 Press okay.\
+\
+A prompt will pop up that asks to "\cf2 Insert Vehicle Identification, example: Holley\cf0 "   The first time you open this script, this will be empty.  Then it will save whatever you enter in this file to a .txt file and it will use that as the default after the first use of the app.  \
+\
+\
+The date and time in the form YYYY_MM_DD_HHMM is added to the end of the name Van ID for the title of the folder in which the information is stored.  \
+\
+Next prompt says "\cf2 Please open the status bar in DVX so a screenshot can be saved. (Press the spacebar to save a particular window)\cf0 "  This will be saved to Error_Archives under the error folder.\
+Press okay, then you have two options.  \
+	1.	Press spacebar, and click on the DVX window.  This will take a screenshot of that 		window.  \
+	2.	Drag your mouse, which will create a rectangle.  The screenshot will be whatever is in 		that rectangle.  \
+\
+\cf2 "Would you like to take another screenshot?\cf0 "  Yes  or no.  Then repeat the previous steps to take the screenshot.  \
+\
+"\cf2 Please wait while the activity monitor is automatically saved\cf0 ."  It takes a few seconds and the script types in the name of the file and saves it to the desktop.  It is then moved into the error folder.\
+\
+"\cf2 Did a program crash?" \cf0 If they say yes, then the script will save the most recent crash report.  If they say no, it will continue with the script.  If there are no crash files, then it will tell the crew that there were no crashes.  \
+\
+\cf2 "
+\f1 \cf2 \CocoaLigature0 Please enter notes your collection circumstances.  Useful information would be: Your location (city or rural). Your speed (mph).  Road conditions and pavement type
+\f0 \cf2 \CocoaLigature1 "  \cf0 Type your notes in here, and a text file will be saved.  (Try to use standard characters.  no !@#&*()($%#\{\}[] ><)  Periods and commas are okay.  If you press enter, you will hit Okay.  So don't try entering in multiple lines to your notes.  \
+\
+The \cf3 system information is also added to the end of the notes.  They are in this form:  "\cf4 Model Name: MacBook Pro, Model Identifier: MacBookPro5,3, Processor Name: Intel Core 2 Duo, Processor Speed: 2.8 GHz, Number of Processors: 1, Total Number of Cores: 2, Memory: 4 GB, Bus Speed: 1.07 GHz, Serial Number: ############\cf3 "  (I changed the Serial Number in this write up to protect my identity haha)\
+\cf0 \
+The console log is saved to the error folder without any prompts.  \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf5 FSO script:\
+"Please contact your Digilog representative."\cf0 \
+\
+}
