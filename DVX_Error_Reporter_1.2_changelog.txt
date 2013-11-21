@@ -1,0 +1,3 @@
+DVX_ERROR REPORTER Notes
+
+Changed the way the system log file was being saved.  - tail 1339 of /var/log/system.log instead of the other way.  The number 1339 was chosen because it should be enough information if the crew does reports at the proper time.  

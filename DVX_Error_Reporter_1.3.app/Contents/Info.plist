@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>DVX_Error_Reporter_1.2</string>
+	<string>DVX_Error_Reporter_1.3</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
@@ -34,11 +34,11 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>444</real>
+		<real>333</real>
 		<key>savedFrame</key>
-		<string>167 107 1270 771 0 0 1440 878 </string>
+		<string>267 279 602 597 0 0 1440 878 </string>
 		<key>selectedTabView</key>
-		<string>result</string>
+		<string>event log</string>
 	</dict>
 </dict>
 </plist>
